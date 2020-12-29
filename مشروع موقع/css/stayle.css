@@ -1,0 +1,447 @@
+/* start Globel css */
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* End Globel css */
+body{
+  font-family: Abril;
+}
+.clear {
+  clear: both;
+}
+/* staet header css */
+.header-sec {
+  background-image: url(../img/header.jpg);
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+/*------------ staet layer blak css */
+.header-sec .layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/*------------- End layer blak css */
+/*------------------- start Menu header */
+/* start serhc */
+.pa{
+  color: #fff;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box{
+  position: absolute;
+  top: 10%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.buscar-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s
+}
+.search-box:hover > .search-btn{
+  background-color: : #fff;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+}
+/* end Serce */
+.header-sec .header-menu ul{
+  float: left;
+  list-style-type: none;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.header-sec .header-menu ul li{
+  display: inline-block;
+  margin-left: 40px;
+}
+.header-sec .header-menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFF;
+  transition: all 0.70s ease-in-out;
+  padding-top: 20px;
+  font-family: 'El Messiri', sans-serif;
+
+
+}
+.header-sec .header-menu ul li a:hover{
+  color: #00416c;
+  font-weight: bold;
+}
+.header-sec .header-menu ul li.home a{
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 15px;
+  background-color: #006ab0;
+  border-radius: 10px;
+}
+.header-sec .header-menu .header-logo{
+  float: right;
+}
+.header-sec .header-menu .header-logo p{
+  color: #fff;
+  font-weight: bold;
+}
+.header-sec .header-menu .header-logo p span{
+  font-size: 40px;
+  color: #f9c310;
+  font-weight: bold;
+  font-family: 'El Messiri', sans-serif;
+
+}
+.header-logo p a{
+  text-decoration: none;
+  color: #fff;
+}
+.header-sec .header-menu{
+  padding: 30px 100px;
+}
+.call {
+  border: 1px solid #006ab0;
+  border-radius: 20px;
+  padding: 8px;
+}
+nav{
+  /* border-bottom: 1px solid #908e8b; */
+}
+/*-------------------- End Menu header */
+/* start content header  */
+.content-hed {
+  margin: 200px 250px;
+
+}
+.content-hed h1{
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.Access{
+  padding: 10px;
+  margin: 30px;
+  background-color: #00416c;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 170px;
+  transition: all 0.35s ease-in-out;
+}
+.Access a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.Access:hover{
+box-shadow: 1px 1px 3px #f9c310;
+background-color: #fff;
+cursor: pointer;
+}
+.Access:hover a{
+  color: #00416c;
+}
+.Access a:hover{
+  color: #00416c;
+}
+.Access1{
+  padding: 10px;
+  margin: 30px;
+  background-color: #fff;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 170px;
+  transition: all 0.35s ease-in-out;
+}
+.Access1:hover{
+box-shadow: 1px 1px 3px #f9c310;
+background-color: #00416c;
+cursor: pointer;
+}
+.Access1:hover a{
+  color: #fff;
+}
+.Access1 a:hover{
+  color: #fff;
+}
+.Access1 a{
+  text-decoration: none;
+  color: #00416c;
+  font-weight: bold;
+}
+/* End content header */
+/* End header css */
+/* start about us */
+.About-us h1{
+  font-weight: bold;
+  color: #00416c;
+  margin-top: 150px;
+  margin-right: 100px;
+  font-size: 30px;
+  position: relative;
+}
+.About-us p{
+  font-weight: bold;
+  font-size: 18px;
+  width: 500px;
+  margin-right: 100px;
+  margin-top: 40px;
+  /* font-family: 'Cairo', sans-serif; */
+  font-family: 'Markazi Text', serif;
+  color: #6d6767;
+}
+.About-us img{
+  position: absolute;
+  display: inline-block;
+  border: 10px solid #fff;
+  height: 350px;
+  width: 400px;
+  top: 800px;
+  left: 280px;
+  z-index: 2;
+}
+.About-us .img-ab img{
+  z-index: 1;
+  position: absolute;
+  top: 700px;
+  left: 80px;
+}
+/* End about us */
+/* start Services */
+.abut{
+  display: flex;
+  margin-top: 90px;
+}
+.t{
+  margin-right: 200px;
+}
+.Services h1{
+  margin-top: 300px;
+  margin-right: 600px;
+  color: #00416c;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Markazi Text', serif;
+
+}
+.Services-1{
+  width: 310px;
+  height: 390px;
+  display: inline-block;
+  /* box-shadow: 1px 1px 1px 1px #6d6767; */
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-right: 100px;
+  transition: all 0.5
+}
+.Services-1:hover{
+  box-shadow: 5px 13px 9px 1px #d7d8d8;
+  cursor: pointer;
+}
+.Services-1 img{
+  margin-right: 100px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.Services-1 h1{
+  text-align: center;
+  font-family: 'Markazi Text', serif;
+  font-size: 25px;
+}
+.Services-1 p{
+  font-family: 'Markazi Text', serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  color: #6d6767;
+}
+/* End Services */
+/* start Business */
+.H{
+  color: #00416c;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Markazi Text', serif;
+}
+/* end Business */
+.paerint-Business{
+  display: flex;
+}
+.Business{
+  margin-right: 35px;
+  margin-top: 30px;
+  height: 470px;
+  width: 400px;
+}
+
+.Business h1{
+  padding-right: 20px;
+  padding-top: 30px;
+  line-height: 40px;
+  font-family: 'Markazi Text', serif;
+}
+.Business h3{
+  padding-top: 15px;
+  padding-right: 20px;
+  color: #00416c;
+  font-family: 'Markazi Text', serif;
+}
+.Business img{
+  width: 400px;
+  height: 300px;
+}
+.Business{
+  box-shadow: 5px 13px 9px 1px #d7d8d8;
+}
+/* start footer  */
+footer{
+  height: 300px;
+  background-color: #46474b;
+  margin-top: 20px;
+}
+footer p{
+  color: #fff;
+  font-weight: bold;
+  padding-right: 60px;
+  padding-top: 50px;
+  display: inline-block;
+}
+footer p span{
+  font-size: 40px;
+  color: #f9c310;
+  font-weight: bold;
+}
+footer p a{
+  text-decoration: none;
+  color: #fff;
+}
+footer h4{
+  color: #b0b2b8;
+  padding-right: 60px;
+  padding-top: 40px;
+  font-size: 22px;
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+
+}
+footer{
+  display: flex;
+  position: relative;
+}
+
+ footer .dir{
+  position: absolute;
+  top: 100px;
+  right: 600px;
+  display: inline-block;
+}
+.dir .box h1{
+   margin: 0;
+   color: #fff;
+   padding: 0;
+   font-size: 24px;
+   border: none;
+ }
+.dir .box input{
+   position: absolute;
+   top: 50px;
+   position: relative;
+   display: inline-block;
+   font-size: 20px;
+   box-sizing: border-box;
+   transition: .5s;
+ }
+ input[type="email"]{
+   background: #fff;
+   width: 340px;
+   height: 50px;
+   border: none;
+   padding: 0 25px;
+   border-radius: 0 25px 25px 0;
+   outline: none;
+ }
+ input[type="submit"]{
+   position: relative;
+   border-radius: 25px 0 0 25px;
+   right: -5px;
+   width: 150px;
+   height: 50px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: #ffc107;
+   color: #fff;
+ }
+  input[type="submit"]:hover{
+    background: #00416c;
+  }
+.fot-1{
+  width: 100%;
+  height: 30px;
+  background-color: #726c6c;
+}
+.fot-1 h4{
+  color: #fff;
+  margin-right: 38%;
+  padding-top: 5px;
+
+}
+.fot-1 h4 a{
+  text-decoration: none;
+  color: #fff;
+}
+.fot-1 h4 a:hover{
+  color: #0313f2;
+}
+/* start footer  */

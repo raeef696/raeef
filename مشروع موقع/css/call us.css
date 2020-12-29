@@ -1,0 +1,97 @@
+/* start Globel css */
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* End Globel css */
+.header-sec {
+  background-image: url(../img/header.jpg);
+  min-height: 120vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.form1{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+}
+.form1 input{
+  display: block;
+  transition: 0.4s;
+  margin-bottom: 20px;
+}
+input[type="text"]{
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  transition: 0.4s;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+input[type="email"]{
+  outline: none;
+  /* border-radius: 0 0 0 0; */
+  padding: 10px;
+  background: none;
+  width: 200px;
+  height: 40px;
+  border: none;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+input[type="number"]{
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  transition: 0.4s;
+  outline: none;
+  width: 218px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+input:hover{
+  border-bottom: 1px solid #000;
+}
+label{
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+}
+input[type="radio"]{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ed{
+  font-size: 14px;
+}
+select{
+  padding: 6px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+  outline: none;
+}
+textarea{
+  background-color: rgba(0, 0, 0, 0.7);
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+input[type="submit"]{
+  border-radius: 40px;
+  margin: 5px auto;
+}
+input[placeholder]{
+  color: #fff;
+  font-size: 14px;
+}
